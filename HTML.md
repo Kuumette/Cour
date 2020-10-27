@@ -4,8 +4,8 @@
     <head>
         <!--déclarer l'encodage des caractères d'une page -->
         <meta charset="UTF-8">
-        <!--Pour tout le réferencement-->
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--Pour tout le réferencement-->
         <meta name="keywords" content="Devoir1"/>
         <meta name="robot" content="index"/>
         <meta name="description" content="Mais devoir 1"/>
@@ -19,7 +19,7 @@
         <title>Titre de l'ongler</title>
     </head>
     <body>
-        <!--Style de titre different-->
+        <!--Style de titre different/plus ou moins important niveaux sementique-->
         <h1>Titre</h1>
         <h2>Titre</h2>
         <h3>Titre</h3>
@@ -38,7 +38,7 @@
             Ceci est une citation 
         </p>
         </blockquote> 
-        <!--Indique une portion de texte "décalée" du contenu principal (par défaut en italique)-->
+        <!--Indique une portion de texte "décalée" du contenu principal (par défaut en italique) Ne dois plus etre utiliser-->
         <i>mon texte</i>
         <!--Indique une portion de texte affectée par une emphase. referencement (balise sementique) 'croll' robot de referencement-->
         <em>Mon texte</em>
@@ -81,7 +81,7 @@
         <!--placeholder est un attribut qui permet de renseigner un texte indicatif par défaut dans un champ de formulaire.
         C'est une valeur qui s'efface dès que l'utilisateur active le champ de formulaire (ou commence à écrire dedans si vous êtes sous Webkit).
         required = case obligatoire-->
-        <input type="text/radio/checkbox/number" name="nom/radio" placehotter="mon texte" value="remplie automatiquement" required>
+        <input type="text/radio/checkbox/number" name="nom/radio" placeholder="mon texte" value="remplie automatiquement" required>
         <!--Pour avoir un grand texte-->
         <textarea name="texte">mon texte</textarea>
         <!--bouton envoyer-->
@@ -145,7 +145,7 @@
    _____________________ 
    |_1__|_______2______|
    |    |____4____| 5  |
-   | 3  |6   |7   |____| 
+   | 3  |6   |7___|____| 
    |____|____|____8____| 
     </body>
 </html>
