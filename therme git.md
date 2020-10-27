@@ -1,5 +1,5 @@
 # Process git
-![Process git](git.png "git") 
+![Process git](git.PNG "git") 
 
 # Definition des termes Git
 
