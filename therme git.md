@@ -1,5 +1,5 @@
 # Process git
-![Grand Theft Life](git.png "GTL") 
+![Process git](git.png "git") 
 
 # Definition des termes Git
 
